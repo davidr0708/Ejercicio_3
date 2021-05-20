@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication3;
+
+/**
+ *
+ * @author octrobpaa
+ */
+public class JavaApplication3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        String Inversa = "";   
+        String Cadena = "OctavioRobles";
+
+        for (int x=Cadena.length()-1;x>=0;x--){
+            Inversa = Inversa + Cadena.charAt(x);
+        }
+    
+        System.out.println(Inversa);
+    }
+    
+}
